@@ -1,0 +1,5 @@
+# chrome / firefox
+browser: chrome
+
+# URL:
+basic_url: 'https://shift.ua/'

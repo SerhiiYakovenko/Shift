@@ -1,0 +1,9 @@
+Shift:
+  Jackets:
+    description: 'КУРТКИ'
+  Success purchase:
+    title: 'ВАШ ЗАКАЗ ПРИНЯТ.'
+    msg: 'СПАСИБО ЗА ПОКУПКУ!'
+  Errors:
+    standard: 'Это поле обязательно для заполнения.'
+    out of stock: 'НЕТ В НАЛИЧИИ'
