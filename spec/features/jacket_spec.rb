@@ -13,7 +13,7 @@ describe 'Jacket purchase' do
         @current_page.preview_section.close_preview
         @current_page.preview_random_jacket
       end
-      @current_page.wait_until { @current_page.preview_section.submit_btn_element.enabled? }
+      @current_page.wait_until { sleep 1; @current_page.preview_section.submit_btn_element.enabled? }
       @current_page.preview_section.submit_btn
       expect(@current_page.preview_section.validation_advice).to include DEFAULTS['Shift']['Errors']['standard']
     end

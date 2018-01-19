@@ -34,7 +34,7 @@ RSpec.configure do |config|
 
     #running browser
     @browser = Watir::Browser.new BROWSER.to_sym
-    @browser.window.resize_to 1600, 1500
+    @browser.window.maximize
     @browser.driver.manage.timeouts.page_load = 120
   end
 
